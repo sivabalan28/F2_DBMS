@@ -22,37 +22,42 @@ RENAME: This is used to rename an object existing in the database.
 ### 1) Create a table student with the following fieds rollno,name,age,address,phoneno.
 
 ### SQL QUERY: 
-
+```create table student(rollno int,name char(20),age int,addr varchar(20),phoneno int);```
 
 ### OUTPUT:
+![270737222-0a408222-71e9-489b-9a1c-e2018c96e9f2](https://github.com/sivabalan28/F2_DBMS/assets/113497347/77351b4a-be03-4a5c-9187-94332c64785d)
 
 ### 2) Change the above student table by adding another attribute department
 
 ### SQL QUERY: 
+```alter table student add department char(30);```
 
 ### OUTPUT:
+![270737487-d89fc1a6-0255-4e24-be57-d4a2bdbdb88e](https://github.com/sivabalan28/F2_DBMS/assets/113497347/3c1d0770-d533-4277-a141-ee852f6b67cd)
 
 
 ### 3) Drop the student table
  
 ### SQL QUERY: 
-
+```drop table student;```
 
 ### OUTPUT:
+![270737627-cda2e0c8-50d6-49e1-be64-1db873059e4c](https://github.com/sivabalan28/F2_DBMS/assets/113497347/e863e851-24b5-4797-a9b0-f71bb5abd50c)
 
 
 ### 4) Delete the student table using truncate keyword
 
 ### SQL QUERY: 
-
+```truncate table student;```
 
 ### OUTPUT:
-
+![270737740-321cfd54-fbd4-4ad7-800b-55ab4eda33e1](https://github.com/sivabalan28/F2_DBMS/assets/113497347/8fecf7f9-d939-4746-afca-18835053d963)
 
 
 ### 5) Rename the student table to mystudent
 
 ### SQL QUERY: 
-
+```alter table student rename to mystudent;```
 
 ### OUTPUT:
+![270737805-5c0207cf-d846-4bf2-a771-788ccaed64e5](https://github.com/sivabalan28/F2_DBMS/assets/113497347/9a049453-b770-4e49-b946-41929d5ac1f4)
