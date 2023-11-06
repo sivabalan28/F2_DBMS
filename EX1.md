@@ -61,3 +61,6 @@ RENAME: This is used to rename an object existing in the database.
 
 ### OUTPUT:
 ![270737805-5c0207cf-d846-4bf2-a771-788ccaed64e5](https://github.com/sivabalan28/F2_DBMS/assets/113497347/9a049453-b770-4e49-b946-41929d5ac1f4)
+
+# RESULT:
+Thus the student database is created and DDL queries executed successfully.
